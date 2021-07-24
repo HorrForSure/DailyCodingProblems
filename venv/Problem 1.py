@@ -16,3 +16,7 @@ def summable(k, n):
 
 # Worst case should be O(n^2), if the entire first array is traversed, and the amount of array m
 # being traversed is n[i], where i = len(n - 1).
+
+# On seeing solution, my answer was close to the proposed solution using sets - implementing
+# sets would reduce the lookup time on the second array to 0(1) instead of O(n), thus reducing
+# overall to O(n).
