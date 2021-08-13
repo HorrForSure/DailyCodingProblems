@@ -52,3 +52,7 @@ def unival_trees(root):
 
 node = Node(0, Node(1), Node(0, Node(1, Node(1), Node(1)), Node(0, Node(0), Node(0))))
 print(unival_trees(node))
+
+# On checking the given solution, I can see that it looks cleaner when using a separate function and calling that
+# instead, but functionally my solution should provide the same or similar efficiency, as it does not double up
+# on the processing of nodes at any point, and delivers the running total unival subtree count up the recursion chain.
